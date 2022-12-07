@@ -1,0 +1,8 @@
+#Parallel Streams
+Idea is to utilize the multiple cores on our machine, to get the results faster
+When we use parallel Streams, multiple threads are used to process our data in parallel.
+Behind the scenes, it is actually the fork join framework(worker threads in common pool) in action which is abstracted away from us.
+No. of threads in common pool is (no. of processors - 1).
+parallel stream - splitting, processing and merging. (divide and conquer approach)
+
+# Best tool to measure performance of parallel streams is JMH - Java Microbenchmark Harness
