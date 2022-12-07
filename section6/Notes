@@ -1,0 +1,12 @@
+Introduction to Method Reference
+• Short hand for Lambdas calling an existing method
+(String s) -> s.toUpperCase() can be rewritten as String::toUpperCase
+(sl, s2) -> s1.compareToIgnoreCase(s2) can be written as String::compareToIgnoreCase
+
+• Compact, Better readability
+(x, y) -> x + y / String::concat/Integer::sum/Double::sum
+
+• Type checking process remains the same as Lambda expressions
+• target reference :: method name
+
+4 Types of method references - methodreferences.png (double shift)

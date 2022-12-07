@@ -1,0 +1,17 @@
+#Predicate Functional Interface
+• Represents boolean-valued function of one argument
+• Functional method is test(Object)
+• Few more default and static methods
+• Used primarily for filtering data
+
+• Consumer 'consumes' - Accepts single argument and returns no result
+• Has 2 methods :
+• accept - which accepts the given argument
+• andThen — Used for composition, i.e compose a sequence of two operations
+
+#Function interface
+• Takes one argument of type T and produces a result of type R
+• Has single abstract method, apply
+• Used primarily for transformations
+
+Supplier - supplies an object/ factory (takes no parameters) and returns an object
